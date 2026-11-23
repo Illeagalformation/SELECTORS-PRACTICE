@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coding Club</title>
+  <!-- Link your stylesheet below -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div id="top-banner">
+    <p class="note special">Meetings every Thursday after school in Room 204!</p>
+  </div>
+
+  <nav class="menu">
+    <a href="#projects">Projects</a> |
+    <a href="#schedule">Schedule</a> |
+    <a href="#join">Join Us</a>
+  </nav>
+
+  <header>
+    <h1>Coding Club</h1>
+    <p class="tagline">Build websites, games, and apps with friends.</p>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>Our Projects</h2>
+      
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>A simple app that checks the local forecast.</p>
+      </div>
+
+      <div class="card featured">
+        <h3>Space Shooter Game</h3>
+        <p>Our featured arcade game built with JavaScript!</p>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <h2>Upcoming Topics</h2>
+      <ul>
+        <li>HTML Basics</li>
+        <li class="highlight">CSS Styling (This Week!)</li>
+        <li>Intro to JavaScript</li>
+      </ul>
+      <p class="note">Bring your own laptop if you have one.</p>
+    </section>
+
+    <section id="join">
+      <h2>Join Us</h2>
+      <p>No prior coding experience required.</p>
+      <button class="button">Sign Up Now</button>
+    </section>
+  </main>
+
+  <footer>
+    <p class="fine-print">© 2026 School Coding Club. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
